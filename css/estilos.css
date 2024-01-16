@@ -1,0 +1,55 @@
+
+.titulo {
+    font-size: 70px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: darkmagenta;
+}
+table {
+    border-collapse: collapse;
+    width: 10%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: right;
+}
+.Cabecera{
+    display: flex;
+    width:100% ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 224, 135);   
+    list-style-type:var (10px);
+    
+}
+.imagen{
+    width: 3000px;
+    height: 80px;
+    font-family: cursive;
+}
+.texto{
+    font-size: 50px;
+    color: darkcyan;
+    font-family: cursive;
+
+}
+.br{
+    padding: 5px;
+    border-right: 1px solid black;
+    margin: 4px 0px;
+
+}
+.tabla {
+    position: relative;
+    float: right;
+}
+.legend {
+    text-align: left;
+    font: bold;
+
+}
